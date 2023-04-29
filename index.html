@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="mainWrapper">
+        <header class="header">
+            <li>Header</li>
+            <div class="rightHeader">
+                <li class="signUp" >Signup</li>
+                <li class="profile">Profile</li>
+            </div>
+        </header>
+        <hr>
+        <div class="formDetails">
+            <h1 class="signup">Signup</h1>
+            <form>
+                <input type="text" placeholder="Full Name" id="name">
+                <input type="email" placeholder="Email" id="email">
+                <input type="password" placeholder="Password" id="password">
+                <input type="password" placeholder="Confirm Password" id="confirmPass">
+            </form>
+            <div class="error">Error : All the fields are mandatory</div>
+            <div class="successfull">Successfully Signed Up!</div>
+            <button type="submit" id="submitBtn">Signup</button>
+        </div>
+        <div class="profilePage">
+            <li>Profile</li>
+            <div class="entry">  
+                <li>Full Name:</li>
+               <li class="pname"></li>
+            </div>
+            <div class="entry"> 
+                <li>Email:</li>
+                <li class="pemail"></li>
+
+            </div>
+            <div class="entry">
+                <li>Password:</li>
+                <li class="ppassword"></li>
+            </div>
+           <button class="logout">Logout</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
